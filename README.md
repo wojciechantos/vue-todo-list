@@ -1,21 +1,16 @@
-# client
-
-## Project setup
-```
-npm install
-```
-
 ## Backend development
 ```
-download mongoDB image for docker and run
+Download mongoDB image for docker and run (for example with Docker Desktop)
 
-(in root directory)
+cd ./backend
+npm install
 node server.js
 ```
 
-### Compiles and hot-reloads for development
+## Frontend development
 ```
-cd ./client 
+cd ./backend
+npm install
 npm run serve
 ```
 
@@ -28,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

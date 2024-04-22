@@ -1,7 +1,9 @@
 {
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-todo-list",
+  "version": "1.0.0",
+  "description": "App created to get familiar with Vue.js framework",
+  "author": "Wojciech Antos",
+  "license": "ISC",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
