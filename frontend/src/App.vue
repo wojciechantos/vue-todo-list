@@ -34,11 +34,11 @@ h1 {
   gap: 24px;
   width: 100vw;
   color: white;
-  min-height: 100vh;
   padding: 24px;
   display: flex;
+  min-height: 100vh;
   text-align: center;
-  background: #2c3e50;
+  background: #696773;
   align-items: center;
   flex-direction: column;
   -moz-osx-font-smoothing: grayscale;

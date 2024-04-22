@@ -23,3 +23,15 @@ npm run build
 ```
 npm run lint
 ```
+
+### Theming
+```
+Color palette used for this project:
+
+mustard: #FED766
+orange: #FFC334
+dimGray: #696773
+moonstone: #009FB7
+raisinBlack: #272727
+antiFlashWhite: #EFF1F3
+```

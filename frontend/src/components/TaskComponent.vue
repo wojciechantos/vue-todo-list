@@ -37,18 +37,17 @@ export default {
 <style>
 .task {
   color: black;
-  background: antiquewhite;
+  background: #EFF1F3;
 
   width: 100%;
   height: 50px;
   display: flex;
   font-size: 16px;
-  padding: 12px 20px;
+  padding: 12px 6px;
+  border-radius: 8px;
   align-items: center;
-  border-radius: 16px;
-  border: 2px solid black;
+  box-shadow: 0 0 0 1px #696773;
   justify-content: space-between;
-  box-shadow: 4px 4px 1px #171717;
 }
 
 .task__description {
@@ -59,13 +58,5 @@ export default {
   gap: 8px;
   display: flex;
   align-items: center;
-}
-
-.app-button {
-  background: rosybrown;
-
-  &:hover {
-    background: dimgray;
-  }
 }
 </style>

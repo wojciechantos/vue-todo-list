@@ -11,12 +11,24 @@ export default {
 <style>
 .app-button {
   color: black;
+  display: flex;
   cursor: pointer;
   border-radius: 8px;
-  padding: 10px 20px;
-  border: 2px solid black;
+  padding: 10px 12px;
+  background: #FED766;
+  align-items: center;
+  justify-content: center;
   transition: background 0.2s;
-  background-color: transparent;
+  box-shadow: 0 0 0 1px #696773;
+
+  &:hover {
+    background: #ffc334;
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
 
 }
 </style>

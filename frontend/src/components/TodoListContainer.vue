@@ -51,14 +51,14 @@ export default {
 
 <style>
   .todo-list-container {
-    background: burlywood;
-    box-shadow: 0px 0px 0 2px black,6px 6px 0 black,6px 6px 0 2px black;
+    background: #272727;
+    box-shadow: 0 0 0 3px #000000;
 
     width: 100%;
     max-width: 650px;
     padding: 24px 48px;
     border-radius: 16px;
-    border: 2px solid black;
+    border: 2px solid #696773;
 
     display: flex;
     align-items: center;

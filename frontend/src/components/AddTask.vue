@@ -1,5 +1,6 @@
 <script>
 import axios from 'axios';
+import PlusIcon from '@/components/PlusIcon.vue';
 import AppButton from '@/components/AppButton.vue';
 
 export default {
@@ -13,7 +14,7 @@ export default {
     }
   },
   components: {
-    AppButton
+    AppButton, PlusIcon
   },
   methods: {
     addTask() {
@@ -30,7 +31,7 @@ export default {
 <template>
   <div class="add-task-wrapper">
     <input v-model="newTask.description" placeholder="What are your goals for today?" maxlength="100">
-    <AppButton @click="addTask" :content="buttonContent" />
+    <AppButton @click="addTask"><template v-slot:icon><PlusIcon /></template></AppButton>
   </div>
 </template>
 
@@ -42,21 +43,13 @@ export default {
 
   input {
     width: 100%;
-    padding: 4px;
-    border: 2px solid;
+    padding: 12px 6px;
     border-radius: 8px;
     transition: background 0.2s;
+    box-shadow: 0 0 0 1px #696773;
 
     &:hover, &:focus, &:active {
-      background: #f5f5f5;
-    }
-  }
-
-  .app-button {
-    background: rosybrown;
-
-    &:hover {
-      background: dimgray;
+      background: #EFF1F3;
     }
   }
 }
